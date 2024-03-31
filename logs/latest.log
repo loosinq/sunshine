@@ -1,0 +1,380 @@
+[11:24:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:24:52] [ServerMain/INFO]: Loaded 7 recipes
+[11:24:52] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[11:24:52] [Server thread/INFO]: Loading properties
+[11:24:52] [Server thread/INFO]: Default game type: SURVIVAL
+[11:24:52] [Server thread/INFO]: Generating keypair
+[11:24:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:24:53] [Server thread/INFO]: Using default channel type
+[11:24:53] [Server thread/INFO]: This server is running CraftBukkit version 3871-Bukkit-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[11:24:53] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.6
+[11:24:53] [Server thread/INFO]: [SetHome] Loading SetHome v6.2.3
+[11:24:53] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.0.7
+[11:24:53] [Server thread/INFO]: [OnePlayerSleep] Loading OnePlayerSleep v3.1.16
+[11:24:53] [Server thread/INFO]: [SilkSpawners_v2] Loading SilkSpawners_v2 v2.2.1
+[11:24:53] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v2.2.4
+[11:24:53] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.7
+[11:24:54] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.1[32;1m.[0;39m[m
+[11:24:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:24:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:24:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:24:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:24:54] [Server thread/INFO]: Preparing level "world"
+[11:24:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:24:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:24:56] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:24:56] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:24:56] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:24:57] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[11:24:57] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[11:24:58] [Server thread/INFO]: Time elapsed: 2888 ms
+[11:24:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:24:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:24:59] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:24:59] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:24:59] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:25:00] [Worker-Main-6/INFO]: Preparing spawn area: 2%
+[11:25:00] [Server thread/INFO]: Time elapsed: 2340 ms
+[11:25:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:25:01] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[11:25:01] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[11:25:01] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[11:25:01] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:25:02] [Server thread/INFO]: Time elapsed: 1851 ms
+[11:25:02] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.6
+[11:25:02] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[11:25:02] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.6[m
+[11:25:02] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[11:25:02] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2.3
+[11:25:02] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v3.1.16
+[11:25:02] [Server thread/ERROR]: Error occurred while enabling OnePlayerSleep v3.1.16 (Is it up to date?)
+java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/TextComponent
+	at OnePlayerSleep.types.MessageImpl.<init>(MessageImpl.java:27) ~[?:?]
+	at OnePlayerSleep.tools.Config.Config.refreshConfigs(Config.java:154) ~[?:?]
+	at OnePlayerSleep.OnePlayerSleep.OnePlayerSleep.onEnable(OnePlayerSleep.java:69) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:334) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:532) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:580) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:405) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:237) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:951) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:295) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.TextComponent
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	... 14 more
+[11:25:02] [Server thread/INFO]: [SilkSpawners_v2] Enabling SilkSpawners_v2 v2.2.1
+[11:25:02] [Server thread/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: Starting SilkSpawners v2.2.1[m
+[11:25:02] [pool-6-thread-1/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: Checking for updates[m
+[11:25:02] [Server thread/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: Loading Cross-Version support[m
+[11:25:02] [Server thread/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: Loading support for NMS-Version v1_20_R1[m
+[11:25:02] [Server thread/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: Loading locale file[m
+[11:25:02] [Server thread/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: Starting metrics service. You can disable the collection of anonymous usage data by editing the config file under /plugins/bStats/[m
+[11:25:02] [Server thread/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: Registering listeners[m
+[11:25:02] [Server thread/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: Registering commands[m
+[11:25:02] [Server thread/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: Started SilkSpawners v2.2.1[m
+[11:25:02] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.4
+[11:25:02] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[11:25:02] [Server thread/WARN]: [VeinMiner] Unknown or invalid block state string for input: "minecraft:short_grass". Is it an item?
+[11:25:02] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[11:25:02] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[11:25:02] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[11:25:02] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[11:25:02] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[11:25:02] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[11:25:02] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[11:25:02] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[11:25:02] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[11:25:02] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[11:25:02] [Server thread/INFO]: [VeinMiner] Registering commands
+[11:25:02] [Server thread/INFO]: [VeinMiner] Registering events
+[11:25:02] [Server thread/INFO]: [VeinMiner] Vault not found. Economy support suspended
+[11:25:02] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[11:25:02] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[11:25:02] [pool-6-thread-1/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: The plugin is up to date (v2.2.1)[m
+[11:25:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:25:02] [Server thread/INFO]: Done (8.241s)! For help, type "help"
+[11:25:02] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.0.7[0;39m[m
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m301d078[0;39m[m
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[11:25:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[11:25:28] [Server thread/INFO]: martusine joined the game
+[11:25:28] [Server thread/INFO]: martusine[/82.210.131.236:51101] logged in with entity id 159 at ([world]-438.23549901039524, 80.0, -407.53910290587015)
+[11:27:52] [Server thread/INFO]: C04PacketPlayer joined the game
+[11:27:52] [Server thread/INFO]: C04PacketPlayer[/79.118.17.237:52736] logged in with entity id 599 at ([world]-438.2885520383785, 80.0, -404.8239849605913)
+[11:27:54] [Async Chat Thread - #0/INFO]: [Not Secure] <martusine> a da
+[11:27:59] [Async Chat Thread - #1/INFO]: [Not Secure] <C04PacketPlayer> a da
+[11:28:01] [Async Chat Thread - #0/INFO]: [Not Secure] <martusine> mai uitate pe ala cu oneplayersleep
+[11:28:12] [Async Chat Thread - #1/INFO]: [Not Secure] <martusine> iesi de pe sv
+[11:28:14] [Async Chat Thread - #1/INFO]: [Not Secure] <martusine> sa se faca dim
+[11:28:15] [Async Chat Thread - #1/INFO]: [Not Secure] <C04PacketPlayer> et drc
+[11:28:16] [Async Chat Thread - #1/INFO]: [Not Secure] <C04PacketPlayer> te
+[11:28:17] [Async Chat Thread - #0/INFO]: [Not Secure] <C04PacketPlayer> dr
+[11:28:19] [Async Chat Thread - #1/INFO]: [Not Secure] <C04PacketPlayer> ate drc
+[11:28:21] [Async Chat Thread - #0/INFO]: [Not Secure] <C04PacketPlayer> te drc
+[11:28:23] [Async Chat Thread - #2/INFO]: [Not Secure] <martusine> hai ba
+[11:28:26] [Async Chat Thread - #2/INFO]: [Not Secure] <martusine> sa se faca dim
+[11:28:27] [Server thread/INFO]: Made C04PacketPlayer a server operator
+[11:28:27] [Async Chat Thread - #0/INFO]: [Not Secure] <martusine> culcate
+[11:28:29] [Server thread/INFO]: C04PacketPlayer issued server command: /oneplayersleep:sleep
+[11:28:29] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'oneplayersleep:sleep' in plugin OnePlayerSleep v3.1.16
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:148) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:856) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:314) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:298) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1926) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.network.PlayerConnection.lambda$18(PlayerConnection.java:1888) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:67) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:156) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1110) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:130) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1089) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1082) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.bp(SourceFile:115) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.p_(MinecraftServer.java:1065) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:984) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:295) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+Caused by: org.bukkit.command.CommandException: Unhandled exception executing command 'oneplayersleep:sleep' in plugin OnePlayerSleep v3.1.16
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:32) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/ChatColor
+	at OnePlayerSleep.tools.SendMessage.formatDry(SendMessage.java:95) ~[?:?]
+	at OnePlayerSleep.commands.Help.onCommand(Help.java:22) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:32) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.ChatColor
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at OnePlayerSleep.tools.SendMessage.formatDry(SendMessage.java:95) ~[?:?]
+	at OnePlayerSleep.commands.Help.onCommand(Help.java:22) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:32) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+[11:28:34] [Server thread/INFO]: C04PacketPlayer issued server command: /oneplayersleep:sleep wakeup
+[11:28:34] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'oneplayersleep:sleep' in plugin OnePlayerSleep v3.1.16
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:148) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:856) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:314) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:298) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1926) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.network.PlayerConnection.lambda$18(PlayerConnection.java:1888) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:67) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:156) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1110) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:130) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1089) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1082) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:139) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.p_(MinecraftServer.java:1066) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:984) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:295) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+Caused by: org.bukkit.command.CommandException: Unhandled exception executing command 'oneplayersleep:sleep' in plugin OnePlayerSleep v3.1.16
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:41) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "java.util.Map.get(Object)" is null
+	at OnePlayerSleep.tools.Config.Config.pickRandomMessage(Config.java:182) ~[?:?]
+	at OnePlayerSleep.tools.Config.Config.pickRandomMessage(Config.java:170) ~[?:?]
+	at OnePlayerSleep.commands.Wakeup.onCommand(Wakeup.java:99) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:41) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+[11:28:36] [Async Chat Thread - #1/INFO]: [Not Secure] <martusine> 3
+[11:28:38] [Server thread/INFO]: C04PacketPlayer issued server command: /oneplayersleep:sleep help
+[11:28:38] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'oneplayersleep:sleep' in plugin OnePlayerSleep v3.1.16
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:148) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:856) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:314) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:298) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1926) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.network.PlayerConnection.lambda$18(PlayerConnection.java:1888) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:67) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:156) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1110) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:130) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1089) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1082) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:139) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.p_(MinecraftServer.java:1066) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:984) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:295) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+Caused by: org.bukkit.command.CommandException: Unhandled exception executing command 'oneplayersleep:sleep' in plugin OnePlayerSleep v3.1.16
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:41) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/ChatColor
+	at OnePlayerSleep.tools.SendMessage.formatDry(SendMessage.java:95) ~[?:?]
+	at OnePlayerSleep.commands.Help.onCommand(Help.java:22) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:41) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.ChatColor
+	at OnePlayerSleep.tools.SendMessage.formatDry(SendMessage.java:95) ~[?:?]
+	at OnePlayerSleep.commands.Help.onCommand(Help.java:22) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:41) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+[11:28:40] [Async Chat Thread - #0/INFO]: [Not Secure] <C04PacketPlayer> nu mere
+[11:28:45] [Async Chat Thread - #1/INFO]: [Not Secure] <martusine> sa iesi de pe sb?
+[11:28:46] [Async Chat Thread - #0/INFO]: [Not Secure] <martusine> sv
+[11:28:47] [Server thread/INFO]: C04PacketPlayer issued server command: /oneplayersleep wakeuop
+[11:28:50] [Server thread/INFO]: C04PacketPlayer issued server command: /oneplayersleep wakeup
+[11:28:51] [Server thread/INFO]: C04PacketPlayer issued server command: /oneplayersleep help
+[11:28:55] [Server thread/INFO]: C04PacketPlayer issued server command: /oneplayersleep:sleep reload
+[11:28:55] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'oneplayersleep:sleep' in plugin OnePlayerSleep v3.1.16
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:148) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:856) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:314) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:298) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1926) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.network.PlayerConnection.lambda$18(PlayerConnection.java:1888) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:67) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:156) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1110) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:130) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1089) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1082) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:139) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.p_(MinecraftServer.java:1066) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:984) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:295) ~[craftbukkit-1.20.1-R0.1-SNAPSHOT.jar:3871-Bukkit-3f9263b]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+Caused by: org.bukkit.command.CommandException: Unhandled exception executing command 'oneplayersleep:sleep' in plugin OnePlayerSleep v3.1.16
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:41) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/ChatColor
+	at OnePlayerSleep.tools.SendMessage.formatDry(SendMessage.java:95) ~[?:?]
+	at OnePlayerSleep.tools.SendMessage.format(SendMessage.java:88) ~[?:?]
+	at OnePlayerSleep.tools.SendMessage.sendMessage(SendMessage.java:39) ~[?:?]
+	at OnePlayerSleep.commands.Reload.onCommand(Reload.java:26) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:41) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.ChatColor
+	at OnePlayerSleep.tools.SendMessage.formatDry(SendMessage.java:95) ~[?:?]
+	at OnePlayerSleep.tools.SendMessage.format(SendMessage.java:88) ~[?:?]
+	at OnePlayerSleep.tools.SendMessage.sendMessage(SendMessage.java:39) ~[?:?]
+	at OnePlayerSleep.commands.Reload.onCommand(Reload.java:26) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at OnePlayerSleep.commands.Sleep.onCommand(Sleep.java:41) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[bukkit-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+[11:28:56] [Async Chat Thread - #1/INFO]: [Not Secure] <C04PacketPlayer> nu aia
+[11:28:56] [Async Chat Thread - #0/INFO]: [Not Secure] <martusine> culcate tu atunci
+[11:28:58] [Server thread/INFO]: C04PacketPlayer lost connection: Disconnected
+[11:28:58] [Server thread/INFO]: C04PacketPlayer left the game
+[11:29:05] [Server thread/INFO]: Nothing changed. The player is not an operator
+[11:29:10] [Server thread/INFO]: Made C04PacketPlayer no longer a server operator
+[11:30:08] [Server thread/INFO]: martusine lost connection: Disconnected
+[11:30:09] [Server thread/INFO]: martusine left the game
+[11:30:35] [Server thread/INFO]: martusine joined the game
+[11:30:35] [Server thread/INFO]: martusine[/82.210.131.236:51155] logged in with entity id 957 at ([world]-498.1445922266987, 86.0, -408.74063645079224)
+[11:30:40] [Server thread/INFO]: C04PacketPlayer joined the game
+[11:30:40] [Server thread/INFO]: C04PacketPlayer[/79.118.17.237:53110] logged in with entity id 1137 at ([world]-442.017500879966, 79.0, -404.11586312194027)
+[11:30:49] [Async Chat Thread - #5/INFO]: [Not Secure] <martusine> ai bagat pe tel?
+[11:30:56] [Async Chat Thread - #5/INFO]: [Not Secure] <C04PacketPlayer> nu
+[11:31:08] [Async Chat Thread - #3/INFO]: [Not Secure] <martusine> ai rezolvat cu oneplayersleep?
+[11:31:09] [Async Chat Thread - #5/INFO]: [Not Secure] <C04PacketPlayer> ma joc putin si dupa
+[11:31:10] [Async Chat Thread - #3/INFO]: [Not Secure] <C04PacketPlayer> nu
+[11:31:14] [Async Chat Thread - #5/INFO]: [Not Secure] <martusine> mue
+[11:31:17] [Async Chat Thread - #3/INFO]: [Not Secure] <C04PacketPlayer> las ma cu 1playersleep
+[11:31:24] [Async Chat Thread - #5/INFO]: [Not Secure] <martusine> nu e ca si cum eo joc mult
+[11:31:26] [Async Chat Thread - #3/INFO]: [Not Secure] <C04PacketPlayer> da wheat
+[11:31:40] [Async Chat Thread - #5/INFO]: [Not Secure] <martusine> da tpa la mn
+[11:31:41] [Async Chat Thread - #3/INFO]: [Not Secure] <C04PacketPlayer> ma duc sa ma cac brb
+[11:31:42] [Server thread/INFO]: C04PacketPlayer lost connection: Disconnected
+[11:31:42] [Server thread/INFO]: C04PacketPlayer left the game
+[11:32:06] [Server thread/INFO]: martusine issued server command: /home
+[11:38:51] [Server thread/INFO]: martusine issued server command: /sethome
+[11:41:22] [Server thread/INFO]: martusine has made the advancement [Not Today, Thank You]
+[11:45:48] [Server thread/INFO]: martusine issued server command: /home
+[11:49:24] [Server thread/INFO]: martusine issued server command: /sethome
+[11:55:23] [Server thread/INFO]: martusine lost connection: Disconnected
+[11:55:23] [Server thread/INFO]: martusine left the game
+[12:10:50] [Server thread/INFO]: C04PacketPlayer joined the game
+[12:10:50] [Server thread/INFO]: C04PacketPlayer[/79.118.17.237:55116] logged in with entity id 7880 at ([world]-446.44253026954465, 78.9375, -382.1538097037335)
+[12:20:56] [Server thread/INFO]: C04PacketPlayer lost connection: Disconnected
+[12:20:56] [Server thread/INFO]: C04PacketPlayer left the game
+[12:43:16] [Server thread/INFO]: Stopping the server
+[12:43:16] [Server thread/INFO]: Stopping server
+[12:43:16] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.2.4
+[12:43:16] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[12:43:16] [Server thread/INFO]: [SilkSpawners_v2] Disabling SilkSpawners_v2 v2.2.1
+[12:43:16] [Server thread/INFO]: [0;30;1m[[0;36;1mSilkSpawners[0;30;1m] [0;30;1m[[0;32;22mINFO[0;30;1m][0;37;22m: Stopping version checker[m
+[12:43:16] [Server thread/INFO]: [OnePlayerSleep] Disabling OnePlayerSleep v3.1.16
+[12:43:16] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.7
+[12:43:16] [Server thread/INFO]: [SetHome] Disabling SetHome v6.2.3
+[12:43:16] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.6
+[12:43:16] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[12:43:16] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.6[m
+[12:43:16] [Server thread/INFO]: Saving players
+[12:43:16] [Server thread/INFO]: Saving worlds
+[12:43:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:43:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:43:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:43:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:43:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:43:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:43:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
